@@ -1,0 +1,3 @@
+# Day 1 placeholder for future category-limit feature.
+# Format planned for Day 2: Category|LimitAmount
+# Example: Food|3000.00

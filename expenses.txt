@@ -1,0 +1,11 @@
+E001|12-10-2026|Food|120.00|Lunch
+E002|12-10-2026|Travel|45.00|Bus fare
+E003|13-10-2026|Books|250.00|Python book
+E004|13-10-2026|Food|80.00|Snacks
+E005|14-10-2026|Fees|500.00|Lab fee
+E006|14-10-2026|Travel|60.00|Auto fare
+E007|15-10-2026|Other|35.00|Notebook
+E008|16-10-2026|Food|150.00|Dinner
+E009|17-10-2026|Books|180.00|Reference book
+E010|18-10-2026|Travel|40.00|Bus fare
+E011|12-10-2026|Food|500.00|Canteen
