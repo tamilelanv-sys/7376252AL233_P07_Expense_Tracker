@@ -1,11 +1,10 @@
-E001|12-10-2026|Food|120.00|Lunch
-E002|12-10-2026|Travel|45.00|Bus fare
-E003|13-10-2026|Books|250.00|Python book
-E004|13-10-2026|Food|80.00|Snacks
-E005|14-10-2026|Fees|500.00|Lab fee
-E006|14-10-2026|Travel|60.00|Auto fare
-E007|15-10-2026|Other|35.00|Notebook
-E008|16-10-2026|Food|150.00|Dinner
-E009|17-10-2026|Books|180.00|Reference book
-E010|18-10-2026|Travel|40.00|Bus fare
-E011|12-10-2026|Food|500.00|Canteen
+E001|02-10-2026|Food|12500|Lunch with classmates
+E002|03-10-2026|Travel|4500|Bus fare
+E003|04-10-2026|Books|32000|Python reference book
+E004|05-10-2026|Food|8500|Dinner
+E005|06-10-2026|Fees|150000|Lab fee
+E006|07-10-2026|Travel|6000|Auto fare
+E007|08-10-2026|Other|2500|Notebook
+E008|09-10-2026|Food|17500|Groceries
+E009|10-10-2026|Books|18000|Data science workbook
+E010|11-10-2026|Other|5000|Phone charging cable

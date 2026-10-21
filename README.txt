@@ -1,39 +1,49 @@
-P07 EXPENSE TRACKER — DAY 1 MILESTONE
+P07 - EXPENSE TRACKER | COMPLETE TWO-DAY VERSION
+=================================================
 
-Student name: TAMILELAN V
+Name: TAMILELAN V
 Register number: 7376252AL233
-Project: P07 Expense Tracker
+Project number: P07
 
-DAY 1 FEATURES IMPLEMENTED
-- Core Python terminal menu.
-- Expense data stored in expenses.txt using pipe-separated records.
-- Automatic sequential expense IDs (E001, E002, ...).
-- Date validation for DD-MM-YYYY, including leap-year checks.
-- Positive amount validation with two decimal places.
-- Category validation: Food, Travel, Books, Fees, Other.
-- Load and save expenses using text files.
-- Add an expense.
-- List expenses between two dates.
-- Edit an expense by ID.
-- Delete an expense by ID with confirmation.
-- Handles missing expenses.txt by starting with an empty collection.
-- No imports, third-party packages, database, or datetime module.
+RUN
+---
+Open a terminal in this folder and run:
+    python3 expense_tracker.py
 
-NOT YET IMPLEMENTED IN DAY 1
-- Monthly total and category-wise monthly report.
-- Category percentage calculations.
-- ASCII category chart.
-- Highest single expense report.
-- Set and enforce category spending limits.
-These are planned for the next development stage.
+RULES AND IMPLEMENTATION
+------------------------
+- Python 3; no imports or third-party packages.
+- No database; data is stored in pipe-delimited .txt files.
+- No eval() or exec().
+- Dates are manually validated in DD-MM-YYYY format, including leap years.
+- Amounts are stored as integer paise to avoid floating-point errors.
+- Do not type the | character in notes because it separates file fields.
+- Data files are created automatically if missing.
 
-RUNNING THE PROGRAM
-1. Open a terminal in this folder.
-2. Run: python3 expense_tracker.py
-3. Follow the numbered menu.
+FEATURES
+--------
+1. Add expenses with automatic IDs.
+2. Validate date, category, note, and positive amount.
+3. List all expenses and calculate the overall total.
+4. Monthly spending total.
+5. Monthly category breakdown with amount, percentage, and # bar
+   (approximately one # per Rs. 5; non-zero categories get at least one #).
+6. Highest single expense with date and category.
+7. Save monthly spending limits by category and warn when reached/exceeded.
+8. Edit an expense by ID.
+9. Delete an expense by ID after confirmation.
+10. List expenses within an inclusive date range.
+11. Persist expenses and limits across program runs.
+
+FILES
+-----
+expense_tracker.py : application
+expenses.txt        : 10 sample records
+limits.txt          : sample category limits
+README.txt          : documentation
+sample_run.txt      : illustrative sample terminal session
 
 DATA FORMAT
-Each expense record is one line:
-ID|DD-MM-YYYY|Category|Amount|Note
-
-The pipe character is reserved as the field separator and is not allowed in notes.
+-----------
+expenses.txt: ID|DD-MM-YYYY|Category|AmountInPaise|ShortNote
+limits.txt:   Category|MonthlyLimitInPaise
